@@ -1,48 +1,49 @@
 
-export function checkVariable(number)
-{
-    
+export function checkVariable(number) {
+    if (isNaN(number)) {
+        return "No number";
+    }
+    return "number";
 }
 
-export function checkIfIsInteger()
-{
-    
+export function checkIfIsInteger(number) {
+    if (Number.isInteger(number)) {
+        return true;
+    }
+    return false;
 }
 
-export function checkIfNumberIsInfinite()
-{
-    /* Tendrás que utilizar un condicional / if ... */
-    
+export function checkIfNumberIsInfinite(number) {
+    if (isFinite(number)) {
+        return "Number is Finite"
+    }
+    return "Number is Infinite";
 }
 
-export function sum()
-{
-    /* Completa la function utilizando el operador de suma + */
-
+export function sum(numb1, numb2) {
+    const result = numb1 + numb2;
+    return result;    
 }
 
-export function subtract()
-{
-    /* Completa la function utilizando el operador de sustracción - */
-    
+export function subtract(numb1, numb2) {
+    const result = numb1 - numb2;
+    return result;    
 }
 
-export function multiply()
-{
-    /* Completa la function utilizando el operador de sustracción - */
-    
-
+export function multiply(numb1, numb2) {
+    const result = numb1 * numb2;
+    return result;    
 }
 
-export function divide()
-{
-    /* Completa la function utilizando el operador de división / */
-
+export function divide(numbOne, numbTwo) {
+    const result = numbOne / numbTwo;
+    return result;    
 }
 
-export function checkIfNumbIsDivisibleByThree()
-{
-    /* Completa la function utilizando el operador modulus y utiliza el conditional if() */
-    
-    
+export function checkIfNumbIsDivisibleByThree(numb1) {
+    if(numb1 % 3 == 0){
+        return "Number is divisible by 3";
+
+    }
+    return "Number is not divisible by 3"
 }

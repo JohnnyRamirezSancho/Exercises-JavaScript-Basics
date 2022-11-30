@@ -1,6 +1,6 @@
 import { concatenateStrings, giveAllLettersInUppercase, giveOneLetter, giveTheIndexOfWord, removeWhiteSpaces, replaceFishWords, returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
 
-describe('Variables can be a string', () => {
+describe.skip('Variables can be a string', () => {
     test.skip('should say Hello', () => {
         const word = "Hello";
         const result = returnHello(word);

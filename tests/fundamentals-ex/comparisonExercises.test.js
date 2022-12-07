@@ -1,14 +1,14 @@
 import { compareNumbers, isGreaterThan10, isGreaterThan10AndEqualTo20, isJane } from "../../src/fundamentals-ex/comparisonExercises";
 
 describe('Comparison Exercises', () => {
-    test.skip('using == should be equal to Jane', () => {
+    test('using == should be equal to Jane', () => {
         /* Completa el test y completa la function isJane */
         const name = 'Jane';
         const result = isJane(name);
         expect(result).toEqual('Jane');
     });
 
-    test.skip('using === should return 10', () => {
+    test('using === should return 10', () => {
         /* Completa el test y completa la function compareNumbers */
         let number1 = '10';
         let number2 = '10';
@@ -16,7 +16,7 @@ describe('Comparison Exercises', () => {
         expect(result).toEqual(10);
     });
 
-    test.skip('quantity are greater than 10', () => {
+    test('quantity are greater than 10', () => {
         /* Completa el test y completa la function isGreaterThan10 */
         const quantity = 15;
         const result = isGreaterThan10(quantity);
@@ -25,7 +25,7 @@ describe('Comparison Exercises', () => {
 });
 
 describe('Logical comparison', () => {
-    test.skip('should be greater than 10 and equal to 20', () => {
+    test('should be greater than 10 and equal to 20', () => {
         /* Completa el test y completa la function isGreaterThan10AndEqualTo20 */
         const numb = 20;
         const result = isGreaterThan10AndEqualTo20(numb);        

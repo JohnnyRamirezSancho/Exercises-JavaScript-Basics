@@ -7,25 +7,21 @@ export function returnAString() {
 }
 
 export function concatenateStrings() {
-    /* Completa la function */
     const firstWord = 'I';
     const secondWord = 'Love';
     const thirdWord = 'JS';
     const space = " ";
     const result = firstWord + space + secondWord + space + thirdWord;
     return result;
-
 }
 
 export function giveOneLetter(searchLetter) {
-    /* Completa la function */
     const dog = 'dog';
     const foundLetter = dog.indexOf(searchLetter);
     if (foundLetter >= 0) {
         return searchLetter;
     }
     return false;
-
 }
 
 export function giveTheIndexOfWord() {
@@ -33,14 +29,12 @@ export function giveTheIndexOfWord() {
     const phrase = "Once upon a time!!!";
     const result = phrase.indexOf(wordToSearch);
     return result;
-
 }
 
 export function replaceFishWords(replacement) {
     let phrase = 'Give a Man a Fish';
     phrase = phrase.replace("Fish", replacement);
     return phrase;
-
 }
 
 export function giveAllLettersInUppercase() {
@@ -53,6 +47,4 @@ export function removeWhiteSpaces() {
     let phrase = '    Hands Down    ';
     const result = phrase.trim();
     return result;
-
-
 }

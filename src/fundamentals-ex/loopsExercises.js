@@ -8,7 +8,6 @@ export function countdown()
         return "GO";
     }
     return false;
-
 }
 
 export function createNumberList(items)
@@ -30,9 +29,7 @@ export function makePizza()
     for(let count = 0; count < ingredients.length; count++) {
         pizza[`ingredient${count + 1}`] = ingredients[count];
     }
-
     return pizza;
-
 }
 
 export function addSpanishInternationalPrefixes()

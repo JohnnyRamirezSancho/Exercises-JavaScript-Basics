@@ -21,7 +21,6 @@ export function isGreaterThan10(number)
         return number;
     }
     return false;
-    
 }
 
 export function isGreaterThan10AndEqualTo20(numb)
